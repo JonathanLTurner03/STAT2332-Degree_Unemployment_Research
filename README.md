@@ -1,7 +1,5 @@
 # STATS2332 - Probability and Data Analysis - Final Project
 
----
-
 ### Background & Dataset
 This project was completed in RStudio and was conducted over a dataset provided by 
 <a href="https://data.world/fivethirtyeight">fivethirtyeight</a> posted on 
@@ -12,8 +10,6 @@ different variables. However, in this project the data is slimmed to only two co
 
 
 ## Research Question
-
----
 Aiming the direction for this project, I aimed to answer the following research question:
 
 **_How much does a graduate student’s college affect the Return on Investment (ROI) a student may receive in regard to 
@@ -28,8 +24,6 @@ unemployment percentage.
 A graduate student’s college **_DOES_** affect the ROI a student may receive in regard to the market’s unemployment percentage.
 
 ## Libraries Used
----
------------------
 | Library   | Version |
 |-----------|---------|
 | ggplot2   | 3.5.1   |
@@ -37,8 +31,6 @@ A graduate student’s college **_DOES_** affect the ROI a student may receive i
 
 
 ## Data Filtering & Trimming
-
----
 
 ### Trimming the Data
 The dataset contains many different variables. However, in this project the data is slimmed to only two columns: 
@@ -59,8 +51,6 @@ skewed by any NA values. This was specifically done post trimming to prevent any
 from altering the data we were working with. This resulted in only 1 row being omitted from our dataset besides 15.
 
 ## Methodology
-
----
 ### ANOVA
 To test for a statistical significance, I used an ANOVA test to compare the means of the unemployment rates of the different
 college majors. The ANOVA test was chosen because it is used to compare the means of three or more groups, in which I had
@@ -76,8 +66,6 @@ This is the result of the `boxplot()` function:<br>
 <img src="./Graphs/Box-Outliers-RatexMajors.png" width="50%">
 
 ## Results
-
----
 ### ANOVA Test
 The ANOVA test was conducted with and without the outliers. The results of the ANOVA test are as follows:
 
@@ -91,8 +79,6 @@ The results of the ANOVA test show that the outliers did impact the results, how
 with and without the outliers were the same. This means that the outliers did not skew the results of the ANOVA test.
 
 ## Conclusion
-
----
 ### Results
 The results of the ANOVA test show that the null hypothesis can be rejected. This means that a graduate student's college
 does affect the ROI a student may receive in regard to the market's unemployment percentage.
